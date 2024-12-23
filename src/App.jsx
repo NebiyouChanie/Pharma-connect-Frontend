@@ -1,8 +1,9 @@
+import Home from "./pages/Home";
 
 function App() {
   return (
     <div>
-       Pharma Connect
+        <Home />
     </div>
   );
 }
