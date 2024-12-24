@@ -8,9 +8,9 @@ function Navbar({role}) {
 
   return (
     <header className=' bg-lightbg py-6 shadow-md'>
-      <div className='container mx-auto flex justify-between items-center'>
+      <div className='container flex justify-between items-center'>
         <div >
-          <img src={Logo} alt="pharma connect logo" className='h-8 md:h-10' />
+          <img src={Logo} alt="pharma connect logo" className='h-6 md:h-8 lg:h-10' />
         </div>
           <nav className=" text-primary ">
             <ul className="flex space-x-4">
@@ -36,3 +36,4 @@ function Navbar({role}) {
 }
 
 export default Navbar
+
